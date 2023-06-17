@@ -1,0 +1,17 @@
+name: api_test
+version: 0.1.0
+
+authors:
+  - marcio <maspoliveira93@gmail.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    
+targets:
+  api_test:
+    main: src/api_test.cr
+
+crystal: 1.8.2
+
+license: MIT
